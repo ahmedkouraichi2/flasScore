@@ -1,0 +1,11 @@
+*{
+  color :white;
+}
+th{
+  color:red;
+  text-transform: uppercase;
+}
+td{
+  color :white ;
+}
+

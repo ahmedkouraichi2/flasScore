@@ -11,6 +11,9 @@ import { ClassificationComponent } from './components/classification/classificat
 import { HeaderComponent } from './components/header/header.component';
 import { WordCapComponent } from './components/word-cap/word-cap.component';
 import { BlogComponent } from './components/blog/blog.component';
+import { VedioComponent } from './components/vedio/vedio.component';
+import { AddMatchComponent } from './components/add-match/add-match.component';
+import { AddTeamComponent } from './components/add-team/add-team.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,10 @@ import { BlogComponent } from './components/blog/blog.component';
     ClassificationComponent,
     HeaderComponent,
     WordCapComponent,
-    BlogComponent
+    BlogComponent,
+    VedioComponent,
+    AddMatchComponent,
+    AddTeamComponent
   ],
   imports: [
     BrowserModule,
